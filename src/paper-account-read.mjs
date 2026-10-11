@@ -1,5 +1,5 @@
-import { createBrokerageAuthorityCustody } from "@rsc-quiescent/brokerage-authority-custody-service";
-import { createAlpacaAdapter } from "@rsc-quiescent/pluggable-venue-adapter-service/alpaca";
+import { createBrokerageAuthorityCustody } from "@red-cup-engineering/brokerage-authority-custody-service";
+import { createAlpacaAdapter } from "@red-cup-engineering/pluggable-venue-adapter-service/alpaca";
 import { EMPTY_WITNESS_ROOT, identifyJsonSemanticContent } from "@red-cup-engineering/semantic-content-identify-service";
 
 const semanticId = (value) => identifyJsonSemanticContent({ objectKind: "brokerage.alpaca-paper-account-read.record", value, witnessRoot: EMPTY_WITNESS_ROOT }).id;

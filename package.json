@@ -1,12 +1,12 @@
 {
-  "name": "@rsc-quiescent/alpaca-paper-account-read-service",
+  "name": "@red-cup-engineering/alpaca-paper-account-read-service",
   "private": true,
   "type": "module",
   "exports": "./src/paper-account-read.mjs",
   "version": "0.1.2",
   "dependencies": {
-    "@rsc-quiescent/brokerage-authority-custody-service": "0.1.1",
-    "@rsc-quiescent/pluggable-venue-adapter-service": "0.1.2",
+    "@red-cup-engineering/brokerage-authority-custody-service": "workspace:*",
+    "@red-cup-engineering/pluggable-venue-adapter-service": "workspace:*",
     "@red-cup-engineering/semantic-content-identify-service": "0.2.2"
   }
 }
