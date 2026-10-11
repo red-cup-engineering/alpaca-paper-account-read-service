@@ -1,6 +1,6 @@
 import { createBrokerageAuthorityCustody } from "@red-cup-engineering/brokerage-authority-custody-service";
 import { createAlpacaAdapter } from "@red-cup-engineering/pluggable-venue-adapter-service/alpaca";
-import { EMPTY_WITNESS_ROOT, identifyJsonSemanticContent } from "@red-cup-engineering/semantic-content-identify-service";
+import { EMPTY_WITNESS_ROOT, identifyJsonSemanticContent } from "@red-cup-engineering/computer-content-address-engineering-services-section/semantic-content-identity";
 
 const semanticId = (value) => identifyJsonSemanticContent({ objectKind: "brokerage.alpaca-paper-account-read.record", value, witnessRoot: EMPTY_WITNESS_ROOT }).id;
 const canonical = (value) => value === null || typeof value !== "object" ? JSON.stringify(value) : Array.isArray(value) ? `[${value.map(canonical).join(",")}]` : `{${Object.keys(value).sort().map((key) => `${JSON.stringify(key)}:${canonical(value[key])}`).join(",")}}`;

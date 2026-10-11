@@ -6,7 +6,7 @@
   "version": "0.1.2",
   "dependencies": {
     "@red-cup-engineering/brokerage-authority-custody-service": "workspace:*",
-    "@red-cup-engineering/pluggable-venue-adapter-service": "workspace:*",
-    "@red-cup-engineering/semantic-content-identify-service": "workspace:*"
+    "@red-cup-engineering/computer-content-address-engineering-services-section": "workspace:*",
+    "@red-cup-engineering/pluggable-venue-adapter-service": "workspace:*"
   }
 }
