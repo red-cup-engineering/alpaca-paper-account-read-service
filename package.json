@@ -4,6 +4,11 @@
   "type": "module",
   "exports": "./src/paper-account-read.mjs",
   "version": "0.1.2",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/red-cup-engineering/computer-web-engineering-services-section.git",
+    "directory": "services/web-platform-services-section/services/web2-platform-services-section/services/web2-financial-platform-services-section/services/web2-financial-brokerage-platform-services-section/services/alpaca-services-section/services/alpaca-paper-account-read-service"
+  },
   "dependencies": {
     "@red-cup-engineering/brokerage-authority-custody-service": "workspace:*",
     "@red-cup-engineering/computer-content-address-engineering-services-section": "workspace:*",
