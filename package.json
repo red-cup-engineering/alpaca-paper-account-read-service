@@ -12,5 +12,10 @@
     "@red-cup-engineering/brokerage-authority-custody-service": "workspace:*",
     "@red-cup-engineering/computer-content-address-engineering-services-section": "workspace:*",
     "@red-cup-engineering/pluggable-venue-adapter-service": "workspace:*"
+  },
+  "license": "MIT",
+  "funding": {
+    "type": "individual",
+    "url": "https://github.com/561-group/.github/blob/main/TIPS.md"
   }
 }
